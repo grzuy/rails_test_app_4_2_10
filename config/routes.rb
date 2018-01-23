@@ -53,4 +53,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  get "/api/v2/stores/search", to: lambda { |env| [200, {}, ["Working"]] }
 end
