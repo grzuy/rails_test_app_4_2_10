@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+
+# Added at 2018-01-23 11:15:00 -0300 by gon:
+gem "rack-attack", "= 5.0.1"
