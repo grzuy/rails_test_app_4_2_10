@@ -53,5 +53,5 @@ gem "rack-attack", "= 5.0.1"
 gem "puma", "= 3.11.2"
 
 # Added at 2018-01-23 11:45:22 -0300 by gon:
-gem "resque", "~> 1.27"
-gem "redis", "< 4"
+gem "resque", "1.27.4"
+gem "redis", "3.3.5"

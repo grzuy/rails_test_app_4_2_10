@@ -180,8 +180,8 @@ DEPENDENCIES
   puma (= 3.11.2)
   rack-attack (= 5.0.1)
   rails (= 4.2.10)
-  redis (< 4)
-  resque (~> 1.27)
+  redis (= 3.3.5)
+  resque (= 1.27.4)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
