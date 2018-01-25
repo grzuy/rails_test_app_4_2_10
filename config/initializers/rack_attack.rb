@@ -5,7 +5,7 @@ module Rack
 
   class Attack
     throttle("search", limit: 1, period: 1.second) do |req|
-      "count" if req.path == "/api/v2/stores/search" && !Rails.env.test?
+      "count" if req.path == "/"
     end
   end
 end
