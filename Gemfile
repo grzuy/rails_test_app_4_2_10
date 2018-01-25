@@ -50,7 +50,7 @@ end
 gem "rack-attack", "= 5.0.1"
 
 # Added at 2018-01-23 11:17:29 -0300 by gon:
-gem "puma", "= 3.9.1"
+gem "puma", "= 3.11.2"
 
 # Added at 2018-01-23 11:45:22 -0300 by gon:
 gem "resque", "~> 1.27"
