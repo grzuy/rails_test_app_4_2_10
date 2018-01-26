@@ -1,2 +1,2 @@
-class Store < ActiveRecord::Base
+class Store < ApplicationRecord
 end
